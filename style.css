@@ -2,48 +2,6 @@
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    @import url('https://fonts.googleapis.com/css?family=Montserrat');
-}
-/* Navbar */
-.navbar {
-    overflow: hidden;
-    display: block;
-    width:100%;
-    background-color: #262A40;
-}
-
-.navbar a {
-    float: right;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    
-    transform: translateY(50%);
-    border-left: 4px solid #f2f2f2; 
-
-    font-size: 1em;
-    font-family: 'Montserrat';
-  }
-
-.navbar #logo {
-    width: 100px;
-    height: 100px;
-}
-
-/* Forside med Madhavan */
-.container {
-    padding: 0;
-    height: 92.5vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-
-}
-
-.container span {
-    transform: translateX(50%);
-    font-size: 2em;
 }
 
 /* CSS for gallery page */
@@ -205,4 +163,31 @@ ul {
 .img-box {
     border-radius: 20px;
     object-fit: cover;
+}
+
+/* Navbar */
+.navbar {
+    overflow: hidden;
+    display: block;
+    width:100%;
+    background-color: #262A40;
+}
+
+.navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+    transform: translateY(50%);
+    border-left: 4px solid #f2f2f2; 
+
+    font-size: 1em;
+    font-family: 'Montserrat';
+  }
+
+.navbar #logo {
+    width: 100px;
+    height: 100px;
 }

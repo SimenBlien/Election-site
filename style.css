@@ -6,7 +6,7 @@ body {
 .navbar {
     overflow: hidden;
     display: block;
-    flex-grow: 1;
+    width:100%;
     background-color: #262A40;
 }
 
@@ -24,6 +24,21 @@ body {
 .navbar #logo {
     width: 100px;
     height: 100px;
+}
+
+/* Forside med Madhavan */
+.container {
+    padding: 0;
+    height: 92.5vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+
+}
+
+.container span {
+    transform: translateX(50%);
+    font-size: 2em;
 }
 
 /* CSS for gallery page */

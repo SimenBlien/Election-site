@@ -1,0 +1,47 @@
+/* CSS for gallery page */
+.top-images {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.img-top {
+    width: 350px;
+    height: 466px;
+    object-fit: cover;
+}
+
+.buttom-images {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.img-buttom {
+    height: 466px;
+    width: 541px;
+    object-fit: cover;
+    margin-bottom: calc(2rem + 46px);
+}
+
+.gallery-header {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .top-images {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .buttom-images {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+  }

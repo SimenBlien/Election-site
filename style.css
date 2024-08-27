@@ -1,3 +1,9 @@
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
 /* CSS for gallery page */
 .top-images {
     display: flex;
@@ -45,3 +51,116 @@
         gap: 0;
     }
   }
+
+/* footer CSS*/
+.container {
+    max-width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 750px) {
+    .row {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+ul {
+    list-style: none;
+}
+.footer {
+    background-color: #2E4159;
+    padding: 70px 0;
+}
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #ea3b30;
+    height: 2px;
+    width: 50px;
+}
+.footer-col ul li{
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+}
+
+.social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+    color: #2E4159;
+}
+
+.social-links a:nth-child(1):hover {
+    background-color: #316FF6; /* Facebook blue color */
+}
+
+.social-links a:nth-child(2):hover {
+    background-color: #008AD8; /* Twitter blue color */
+}
+
+.social-links a:nth-child(3):hover {
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); /* Instagram gradient color */
+}
+
+.social-links a:nth-child(4):hover {
+    background-color: #0077b5; /* LinkedIn blue color */
+}
+
+/*CSS for imgbox*/
+.heart-cases {
+    display: grid;  
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.skrift-box {
+    color: #363859;
+}
+
+.img-box {
+    border-radius: 20px;
+    object-fit: cover;
+}

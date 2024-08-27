@@ -193,6 +193,35 @@ ul {
     object-fit: contain;
     padding-left:50%;
     transform: translateX(-5%);
-    
+    padding-top:5px;
+    padding-bottom: 5px;
   
+}
+
+/* madhavan.html */
+.card {
+    text-align: center;
+    display: flex;
+    padding-left: 10%;
+    padding-top: 2.5%;
+    width:100%;
+    text-align: center;
+    overflow: wrap;
+}
+
+.card .text {
+    padding-left: 2.5%;
+}
+
+.card #header {
+    height: 10%;
+    font-size: 2em;
+    border-bottom: 4px solid #262A40;
+    transform: translateX(20vw);
+}
+
+.card #about {
+    text-align: center;
+    font-size: 1em;
+    
 }

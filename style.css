@@ -10,6 +10,7 @@ body {
     display: block;
     width:100%;
     background-color: #262A40;
+   
 }
 
 .navbar a {
@@ -18,7 +19,6 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
     transform: translateY(50%);
     border-left: 4px solid #f2f2f2; 
 
@@ -29,21 +29,24 @@ body {
 .navbar #logo {
     width: 100px;
     height: 100px;
+    margin-left: 45vw;
 }
 
 /* Forside med Madhavan */
 .container {
     padding: 0;
-    height: 92.5vh;
+    height: 89.5vh;
     width: 100vw;
     display: flex;
     align-items: center;
+    background-color: #363859;
 
 }
 
 .container span {
     transform: translateX(50%);
     font-size: 2em;
+    color: white;
 }
 
 /* CSS for gallery page */

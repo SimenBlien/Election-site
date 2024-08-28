@@ -175,18 +175,23 @@ ul {
 }
 
 .navbar a {
+    position: relative;
+    top: 2.5vh;
     float: right;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
-    transform: translateY(75%);
     border-left: 4px solid #f2f2f2; 
-
+    transition: transform 0.3s;
     font-size: 1em;
+
     font-family: 'Montserrat';
   }
+
+.navbar a:hover {
+    transform: scale(1.05);
+}
 
 .navbar #logo {
     margin: 0;
@@ -199,22 +204,38 @@ ul {
 }
 
 /* madhavan.html */
-.card {
-    text-align: center;
+#flex {
+
     display: flex;
-    padding-left: 10%;
+    width: fit-content;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+}
+
+.card {
+
+    text-align: left;
+    display: flex;
     padding-top: 2.5%;
-    width:100%;
-    text-align: center;
-    overflow: wrap;
+    width:40%;
+    justify-content: center;
+    text-wrap: wrap balance;
+    overflow-wrap: break-word;
+    transform: scale(120%);
+}
+
+.card #portrait {
+    padding-right: 5%;
 }
 
 .card .text {
-    padding-left: 2.5%;
+    padding: 2.5%;
+    text-wrap: wrap;
+    background-color: rgba(231, 231, 231, 0.5);
 }
 
 .card #header {
-    height: 10%;
     font-size: 2em;
     border-bottom: 4px solid #262A40;
     transform: translateX(20vw);

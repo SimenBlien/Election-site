@@ -213,7 +213,7 @@ ul {
 .navbar #logo {
     margin: 0;
     object-fit: contain;
-    padding-left:40%;
+    padding-left:39%;
     transform: translateX(-5%);
     padding-top:5px;
     padding-bottom: 5px;
@@ -268,3 +268,26 @@ ul {
     font-size: 1em;
     
 }
+
+/* stoette.html */
+.endorsements {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.endorsement {
+    padding-top: 2%;
+}
+
+.endorsement img {
+    transform: scale(0.9);
+}
+
+.textbox span::before, .textbox span::after {
+    content: '"';
+    font-size: 2.5em;
+    color: #ccc;
+}
+

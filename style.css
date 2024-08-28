@@ -171,16 +171,23 @@ ul {
     overflow: hidden;
     width:100%;
     background-color: #262A40;
-    display: block;
+    display: flex;
 }
 
-.navbar a {
+.navbar div {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.navbar div a {
     position: relative;
-    top: 2.5vh;
-    float: right;
+    height: 10%;
+    align-self: center;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
+    padding-bottom: 24px;
     text-decoration: none;
     border-left: 4px solid #f2f2f2; 
     transition: transform 0.3s;
@@ -189,7 +196,7 @@ ul {
     font-family: 'Montserrat';
   }
 
-.navbar a:hover {
+.navbar div a:hover {
     transform: scale(1.05);
 }
 
@@ -217,26 +224,30 @@ ul {
 
     text-align: left;
     display: flex;
-    padding-top: 2.5%;
-    width:40%;
+    padding-top: 1%;
+    width:60%;
+    height: 75%;
     justify-content: center;
     text-wrap: wrap balance;
     overflow-wrap: break-word;
-    transform: scale(120%);
 }
 
 .card #portrait {
     padding-right: 5%;
+    border-radius: 6px;
 }
 
 .card .text {
+    height: 50%;
+    font-size: 1em;
     padding: 2.5%;
     text-wrap: wrap;
     background-color: rgba(231, 231, 231, 0.5);
+    border-radius: 6px;
 }
 
 .card #header {
-    font-size: 2em;
+    font-size: 1.5em;
     border-bottom: 4px solid #262A40;
     transform: translateX(20vw);
 }

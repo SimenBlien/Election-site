@@ -395,12 +395,19 @@ input:focus::placeholder {
     border-radius: 6px;
     background-color: rgba(231, 231, 231, 0.5);
     text-align: center;
-    width: 36.6%;
+    width: 33%;
     
 }
 
+.endorsement-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+
 .endorsement img {
-    max-height: 500px;
+    max-height: 450px;
     border-radius: 6px;
 
 }

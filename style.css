@@ -1,8 +1,7 @@
-
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
-    
+
 }
 
 /* CSS for gallery page */
@@ -183,6 +182,8 @@ ul {
 .img-box {
     border-radius: 20px;
     object-fit: cover;
+    height: 18rem;
+    width: 18rem;
 }
 
 /* Navbar */
@@ -320,7 +321,7 @@ input:focus::placeholder {
 }
 
 .poster {
-    width: 90vw;
+    width: 85vw;
     border-radius: 30px;
 }
 .navbar #logo {

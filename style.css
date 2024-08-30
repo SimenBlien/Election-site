@@ -2,6 +2,7 @@
 body {
     margin: 0;
     font-family: "Montserrat", sans-serif;
+    
 }
 
 /* CSS for gallery page */
@@ -212,7 +213,7 @@ ul {
 
 .navbar #logo {
     margin: 0;
-    object-fit: contain;
+    width: 90px;
     padding-left:39%;
     transform: translateX(-5%);
     padding-top:5px;
@@ -275,19 +276,37 @@ ul {
     flex-grow: 1;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 .endorsement {
-    padding-top: 2%;
+    border-radius: 6px;
+    background-color: rgba(231, 231, 231, 0.5);
+    text-align: center;
+    width: 36.6%;
+    
 }
 
 .endorsement img {
-    transform: scale(0.9);
+    max-height: 500px;
+    border-radius: 6px;
+
 }
 
-.textbox span::before, .textbox span::after {
-    content: '"';
-    font-size: 2.5em;
-    color: #ccc;
+.textbox {
+    border-radius: 6px;
+    padding: 10px;
 }
+
+#name {
+    font-weight: bolder;
+
+}
+
+.textbox span {
+
+    text-wrap: wrap;
+    
+}
+
 

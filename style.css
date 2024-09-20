@@ -147,8 +147,9 @@ ul {
 
 /*CSS for imgbox*/
 .heart-cases {
-    display: grid;  
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    justify-content: center;
+
     gap: 3rem;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -158,6 +159,7 @@ ul {
 .box {
     display: flex;
     flex-direction: column;
+    width: 18rem;
 }
 
 .skrift-box {
